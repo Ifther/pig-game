@@ -80,7 +80,7 @@ btnHold.addEventListener('click', function () {
       scores[activePlayer];
 
     // console.log(Number(document.getElementById(`score--${activePlayer}`).textContent));
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       playing = false;
       // console.log(`player - ${activePlayer} wins!!!`);
       document
